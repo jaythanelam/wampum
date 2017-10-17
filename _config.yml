@@ -4,8 +4,8 @@
 title: WAMPUM
 description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/wampum/" #important: start with /
-url: "https://jaythanelam.github.io/"
+baseurl: "site/" #important: start with /
+url: "https://jaythanelam.github.io/wampum/"
 
 # Build settings
 markdown: kramdown

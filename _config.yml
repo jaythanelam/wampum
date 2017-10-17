@@ -21,7 +21,12 @@ colors:  #in hex code if not noted else
   footer_heading: "#ffffff"
   footer_content: "#bfc9d3"
 
+  dark_brown: "#63594D"
+  medium_brown: "#988976"
+  light_brown: "#EDEAE6"
+  superlt_brown: "F6F4F2"
   white: "#ffffff"
+  teal: "#1EC5A2"
 
 # Making projects separate from posts
 collections:
@@ -36,15 +41,15 @@ collections:
 
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
-  - title: dribbble
-    url:
   - title: facebook
+    url:
+  - title: bitcoin
     url:
   - title: twitter
     url:
-  - title: instagram
+  - title: angellist
     url:
-  - title: tumblr
+  - title: 
     url:
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.

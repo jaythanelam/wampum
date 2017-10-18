@@ -186,7 +186,7 @@ a:focus {
     background-color: none;
     border: 2px solid #1EC5A2;
     border-radius: 100px;
-	padding: 24px 50px;
+	padding: 22px 50px;
 	text-transform: uppercase;
 	letter-spacing: 1.3px;
 	text-align: center;
@@ -320,7 +320,7 @@ a:focus {
 	background-color: #F6F4F2;
 }
 
-#goodcompany h2 {
+#goodcompany h2, #newsletter h2 {
 	color: #0B4069;
 	font-family: "Montserrat Alternates";
 	font-size: 34px;

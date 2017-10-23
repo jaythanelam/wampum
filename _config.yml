@@ -43,13 +43,11 @@ collections:
 social:
   - title: facebook
     url:
-  - title: bitcoin
-    url:
   - title: twitter
     url:
-  - title: angellist
+  - title: bitcoin
     url:
-  - title: 
+  - title: angellist
     url:
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.

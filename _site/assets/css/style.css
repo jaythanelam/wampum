@@ -256,6 +256,16 @@ a:focus {
 	border-bottom: 2px solid #ffffff;
 	margin-bottom: 25px;
 }
+
+.input-lg {
+	color: #988976;
+	border: 2px solid #F6F4F2;
+	border-radius: 5px;
+	height: 66px;
+	margin: 10px;
+}
+
+
 /*	################################################################
 	SITE WRAPS
 ################################################################# */
@@ -263,37 +273,33 @@ a:focus {
 #headerwrap {
 	background-color: white;
 	min-height: 0px;
-	padding-top: 160px;
-	padding-bottom: 80px;
+	padding-top: 120px;
+	padding-bottom: 60px;
 	text-align: left;
 }
 
-#headerwrap h3, h5 {
-	color: white;
-	font-weight: 400;
+#headerwrap svg {
+	padding-bottom: 40px;
+	margin: 0 auto;
 }
 
 #headerwrap h1 {
 	color: #0B4069;
 	font-family: "Montserrat Alternates";
-	font-size: 74px;
-	font-weight: 600;
-	line-height: 1em;
-	height: 251px;
-	width: 516px;
+	font-size: 70px;
+	line-height: 66px;
 	margin: 0;
-	padding: 0;
+	padding-bottom: 20px;
 }
 
 #headerwrap p {
-	height: 113px;
-	width: 516px;
 	color: #988976;
 	font-family: Montserrat;
 	font-size: 16px;
 	line-height: 1.5em;
 	letter-spacing: .5px;
 	margin: 0;
+	padding-bottom: 20px;
 }
 
 #headerwrap .img-responsive {
@@ -320,7 +326,7 @@ a:focus {
 	background-color: #F6F4F2;
 }
 
-#goodcompany h2, #newsletter h2 {
+#goodcompany h2, #newsletterwrap h2 {
 	color: #0B4069;
 	font-family: "Montserrat Alternates";
 	font-size: 34px;
@@ -329,7 +335,7 @@ a:focus {
 	text-align: center;
 }
 
-#goodcompany p {
+#goodcompany p, #newsletterwrap p {
 	text-align: center;
 	color: #988976;
 	font-family: Montserrat;
@@ -357,6 +363,35 @@ a:focus {
 	width: 516px;
 	margin: 0;
 	padding: 0;
+}
+
+/* Newsletter Wrap */
+
+#newsletterwrap {
+	padding-top: 20px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #EDEAE6;
+}
+
+#newsletterwrap h3 {
+	color: #0B4069;
+	font-family: "Montserrat Alternates";
+	font-size: 28px;
+	font-weight: 600;
+	line-height: 20px;
+	text-align: left;
+}
+
+#newsletterwrap p {
+	text-align: left;
+}
+
+#newsletterwrap .form-inline {
+	text-align: right;
+}
+
+#newsletterwrap .input-lg {
+	padding-right: 120px;
 }
 
 /* Portfolio Wrap */
@@ -466,38 +501,45 @@ a:focus {
 
 /* Footer */
 #footerwrap {
-	display: flex; /* or inline-flex */
-	flex-direction: row;
-	flex-wrap: nowrap;
-	justify-content: space-between;
-	padding-top: 50px;
-	padding-bottom: 50px;
-	background: #1EC5A2;
-}
-
-#footerwrap .footer-mark {
-	display: flex; /* or inline-flex */	
-	margin: 0;
-	padding: 0;
-	border: 1px solid #40630B;
+	background: #ffffff;
+	text-align: right;
+	padding-top: 15px;
+	padding-bottom: 10px;
 }
 
 #footerwrap p {
-	color: #63594D;
+	color: #0B4069;
+	font-size: 80%;
 }
 
-#footerwrap h4 {
-	color: #ffffff;
+#footerwrap .footer-nav a {
+	font-size: 80%;
+	color: #988976;
+	padding-left: 20px;
 }
+
 
 #footerwrap i {
-	font-size: 30px;
-	color: #bfc9d3;
-	padding-right: 25px;
+	font-size: 24px;
+	color: #988976;
+	text-align: right;
 }
 
 #footerwrap i:hover {
 	color: #0B4069
+}
+
+#footerwrap .footer-nav {
+	text-align: center;
+	margin-top: 15px;
+	padding-left: 380px;
+	border-right: 1px solid #988976;
+	
+}
+
+#footerwrap p .btn-social {
+	text-align: right;
+	padding-left: 20px;
 }
 
 /*	################################################################
@@ -626,3 +668,93 @@ a.anchor{
     top: -80px; 
     visibility: hidden;
 }
+
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 320px) {
+	
+	#headerwrap {
+		text-align: center;
+	}
+
+	#headerwrap h1 {
+		font-size: 50px;
+		line-height: 50px;
+		text-align: center;
+	}
+
+	#headerwrap .btn-theme {
+		margin: 0 auto;
+	}
+
+	#newsletterwrap h3,
+	#newsletterwrap p {
+		text-align: center;
+	}
+
+	#newsletterwrap .form-inline {
+		text-align: center;
+		margin: 0;
+	}
+
+	#footerwrap {
+		text-align: center;
+	}
+
+	#footerwrap p .btn-social {
+		text-align: center;
+		padding-left: 10px;
+	}
+	
+	#footerwrap i {
+		padding-left: 20px;
+	}
+
+	#footerwrap svg {
+		padding-top: 7px;
+	}
+	
+  }
+  
+  /* Small Devices, Tablets */
+  @media only screen and (min-width : 768px) {
+	
+	#headerwrap {
+		margin: 0 auto;
+		text-align: center;
+	}
+
+	#headerwrap .btn-theme {
+		margin: 0 auto;
+	}
+	
+	#headerwrap h1 {
+		text-align: center;
+	}
+
+	#newsletterwrap h3,
+	#newsletterwrap p {
+		text-align: center;
+	}
+
+	#newsletterwrap .form-inline {
+		text-align: center;
+	}
+
+	#footerwrap p {
+		font-size: 50%;
+		text-align: left;
+		margin-top: 5px;
+	}
+
+	#footerwrap .footer-nav {
+		text-align: right;
+		margin-top: 5px;
+		padding-left: 0;		
+	}
+	
+	#footerwrap i {
+		font-size: 14px;
+	}
+	
+  }

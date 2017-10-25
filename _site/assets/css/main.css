@@ -8,7 +8,7 @@
 	URL: http://alvarez.is
 	
 ################################################################# */ 
-@import url('https://fonts.googleapis.com/css?family=Montserrat|Montserrat+Alternates:400,600,600i');
+@import url('https://fonts.googleapis.com/css?family=Montserrat+Alternates:300,400,600|Montserrat:300,400,600');
 @import url("prettyPhoto.css") screen;
 @import url("hoverex-all.css") screen;
 
@@ -38,7 +38,7 @@ p {
 	padding: 0; 
 	margin-bottom: 12px; 
 	font-family: 'Montserrat', sans-serif;
-	font-weight: 400;
+	font-weight: 300;
 	font-size: 14px; 
 	line-height: 24px;
 	color: #ffffff; 
@@ -98,12 +98,16 @@ a:focus {
 	text-align: center
 }
 
+.strong {
+	color: #63594D;
+}
+
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
 .navbar {
 	min-height: 75px;
-	padding-top: 11px;
+	padding-top: 14px;
 	margin-bottom: 0;
 }
 
@@ -123,7 +127,7 @@ a:focus {
 
 .navbar-default .navbar-nav > li > a {
 	color: #988976;
-	font-weight: 600;
+	font-weight: 400;
 	font-size: 14px;
 	letter-spacing: 1px;
 }
@@ -139,7 +143,7 @@ a:focus {
 
 .navbar-default {
 	background-color: #ffffff;
-	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.25);
+	box-shadow: 0 1px 4px 0 rgba(0,0,0,0.15);
 	border-color: transparent;
 }
 
@@ -273,7 +277,7 @@ a:focus {
 #headerwrap {
 	background-color: white;
 	min-height: 0px;
-	padding-top: 120px;
+	padding-top: 140px;
 	padding-bottom: 60px;
 	text-align: left;
 }
@@ -302,9 +306,63 @@ a:focus {
 	padding-bottom: 20px;
 }
 
-#headerwrap .img-responsive {
+
+/* Company Wrap */
+
+#companywrap {
+	background-color: #F6F4F2;
+	min-height: 0px;
+	padding-top: 140px;
+	padding-bottom: 60px;
+	text-align: left;
+}
+
+#companywrap svg {
+	padding-bottom: 40px;
 	margin: 0 auto;
 }
+
+#companywrap h1 {
+	color: #0B4069;
+	font-family: "Montserrat Alternates";
+	font-size: 70px;
+	line-height: 66px;
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#companywrap p {
+	color: #988976;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 1.5em;
+	letter-spacing: .5px;
+	margin: 0;
+	padding-bottom: 20px;
+}
+
+
+/* Stats Wrap */
+#statswrap {
+	text-align: center;
+	background-color: white;
+}
+
+#statswrap div {
+	padding: 40px;
+}
+#statswrap p {
+	color: #988976;
+}
+
+#statswrap .big-stat {
+	color: #FA5040;
+	font-weight: ;
+	font-size: 90px;
+	padding-bottom: 30px;
+}
+
 
 /* Services Wrap */
 #service {
@@ -365,11 +423,13 @@ a:focus {
 	padding: 0;
 }
 
+
+
 /* Newsletter Wrap */
 
 #newsletterwrap {
-	padding-top: 20px;
-	padding-bottom: 20px;
+	padding-top: 50px;
+	padding-bottom: 50px;
 	border-bottom: 1px solid #EDEAE6;
 }
 
@@ -503,17 +563,25 @@ a:focus {
 #footerwrap {
 	background: #ffffff;
 	text-align: right;
-	padding-top: 15px;
-	padding-bottom: 10px;
+	padding-top: 30px;
+	padding-bottom: 20px;
+}
+
+#footerwrap svg {
+	margin: -10px;
+	padding: 0;
 }
 
 #footerwrap p {
 	color: #0B4069;
-	font-size: 80%;
+}
+
+#footerwrap .footer-nav {
+	text-align: center;
+	padding-right: 15px;
 }
 
 #footerwrap .footer-nav a {
-	font-size: 80%;
 	color: #988976;
 	padding-left: 20px;
 }
@@ -523,21 +591,14 @@ a:focus {
 	font-size: 24px;
 	color: #988976;
 	text-align: right;
+	padding-top: 8px;
 }
 
 #footerwrap i:hover {
 	color: #0B4069
 }
 
-#footerwrap .footer-nav {
-	text-align: center;
-	margin-top: 15px;
-	padding-left: 380px;
-	border-right: 1px solid #988976;
-	
-}
-
-#footerwrap p .btn-social {
+#footerwrap .btn-social {
 	text-align: right;
 	padding-left: 20px;
 }
@@ -708,12 +769,16 @@ a.anchor{
 	
 	#footerwrap i {
 		padding-left: 20px;
+		text-align: center;
 	}
 
 	#footerwrap svg {
 		padding-top: 7px;
 	}
 	
+	#footerwrap .footer-nav {
+		text-align: center;
+	}
   }
   
   /* Small Devices, Tablets */
@@ -742,7 +807,7 @@ a.anchor{
 	}
 
 	#footerwrap p {
-		font-size: 50%;
+		font-size: 60%;
 		text-align: left;
 		margin-top: 5px;
 	}
@@ -757,4 +822,84 @@ a.anchor{
 		font-size: 14px;
 	}
 	
+  }
+
+  /* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+	#headerwrap,
+	#headerwrap h1 {
+		text-align: left;
+	}
+
+	#headerwrap .btn-theme {
+		margin: 0;
+	}
+
+	#companywrap h1 {
+		font-size: 60px;
+	}
+
+	#footerwrap p {
+		color: #0B4069;
+		font-size: 90%;
+	}
+	
+  }
+	
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+	
+	#headerwrap h1 {
+		color: #0B4069;
+		font-family: "Montserrat Alternates";
+		font-size: 70px;
+		line-height: 66px;
+		margin: 0;
+		padding-bottom: 20px;
+	}
+
+	#footerwrap {
+		background: #ffffff;
+		text-align: right;
+		padding-top: 30px;
+		padding-bottom: 20px;
+	}
+	
+	#footerwrap svg {
+		margin-top: -8px;
+		padding: 0;
+	}
+	
+	#footerwrap p {
+		color: #0B4069;
+	}
+	
+	#footerwrap .footer-nav {
+		text-align: center;
+		padding-right: 15px;
+	}
+	
+	#footerwrap .footer-nav a {
+		color: #988976;
+		padding-left: 20px;
+	}
+	
+	
+	#footerwrap i {
+		font-size: 24px;
+		color: #988976;
+		text-align: right;
+		padding-top: 8px;
+	}
+	
+	#footerwrap i:hover {
+		color: #0B4069
+	}
+	
+	#footerwrap .btn-social {
+		text-align: right;
+		padding-left: 20px;
+	}
+
   }

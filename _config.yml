@@ -27,6 +27,7 @@ colors:  #in hex code if not noted else
   superlt_brown: "F6F4F2"
   white: "#ffffff"
   teal: "#1EC5A2"
+  red: "#FA5040"
 
 # Making projects separate from posts
 collections:

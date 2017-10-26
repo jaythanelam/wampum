@@ -364,6 +364,36 @@ a:focus {
 }
 
 
+/* Founders Wrap & Founders Video Wrap */
+
+#founderswrap h2 {
+	color: {{ site.colors.dark_brown }};
+	font-weight: 600;
+	padding-left: 80px;
+	padding-top: 60px;
+}
+
+#founderswrap p {
+	color: {{ site.colors.medium_brown }};
+	padding-left: 80px;
+}
+
+#foundersvidwrap {
+	padding-top: 140px;
+	padding-bottom: 140px;
+	border-bottom: 1px solid {{ site.colors.light_brown }};
+}
+
+#foundersvidwrap h2 {
+	color: {{ site.colors.dark_brown }};
+}
+
+#foundersvidwrap p {
+	color: {{ site.colors.medium_brown }};
+}	
+
+
+
 /* Services Wrap */
 #service {
 	margin-top: 0px;

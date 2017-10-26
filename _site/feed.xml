@@ -5,8 +5,8 @@
     <description>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</description>
     <link>http://localhost:4000/wampum/</link>
     <atom:link href="http://localhost:4000/wampum/feed.xml" rel="self" type="application/rss+xml" />
-    <pubDate>Tue, 24 Oct 2017 22:58:45 -0400</pubDate>
-    <lastBuildDate>Tue, 24 Oct 2017 22:58:45 -0400</lastBuildDate>
+    <pubDate>Wed, 25 Oct 2017 23:14:50 -0400</pubDate>
+    <lastBuildDate>Wed, 25 Oct 2017 23:14:50 -0400</lastBuildDate>
     <generator>Jekyll v3.6.0</generator>
     
       <item>

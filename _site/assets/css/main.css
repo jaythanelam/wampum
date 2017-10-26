@@ -364,6 +364,36 @@ a:focus {
 }
 
 
+/* Founders Wrap & Founders Video Wrap */
+
+#founderswrap h2 {
+	color: #63594D;
+	font-weight: 600;
+	padding-left: 80px;
+	padding-top: 60px;
+}
+
+#founderswrap p {
+	color: #988976;
+	padding-left: 80px;
+}
+
+#foundersvidwrap {
+	padding-top: 140px;
+	padding-bottom: 140px;
+	border-bottom: 1px solid #EDEAE6;
+}
+
+#foundersvidwrap h2 {
+	color: #63594D;
+}
+
+#foundersvidwrap p {
+	color: #988976;
+}	
+
+
+
 /* Services Wrap */
 #service {
 	margin-top: 0px;

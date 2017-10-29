@@ -169,6 +169,7 @@ a:focus {
 	letter-spacing: 1.3px;
 	text-align: center;
 }
+
 .btn-theme:hover,
 .btn-theme:focus,
 .btn-theme:active,
@@ -343,6 +344,26 @@ a:focus {
 }
 
 
+
+/* Pricing Wrap */
+
+#companywrap .product-card {
+	background-color: white;
+	border-radius: 4px;
+	text-align: center;
+}
+	
+#companywrap h4 {
+	color: {{ site.colors.dark_brown }};
+	font-weight: 600;
+}
+
+#companywrap .product-card .btn-theme {
+	margin: 0 auto;
+}
+	
+
+
 /* Stats Wrap */
 #statswrap {
 	text-align: center;
@@ -370,12 +391,14 @@ a:focus {
 	color: {{ site.colors.dark_brown }};
 	font-weight: 600;
 	padding-left: 80px;
-	padding-top: 60px;
+	padding-top: 80px;
+	padding-right: 80px;
 }
 
 #founderswrap p {
 	color: {{ site.colors.medium_brown }};
 	padding-left: 80px;
+	padding-right: 80px;
 }
 
 #foundersvidwrap {
@@ -393,6 +416,82 @@ a:focus {
 }	
 
 
+/* Products Wrap */
+
+#productwrap {
+	background-color: {{ site.colors.teal }};
+	margin: 0;
+	padding-top: 140px;	
+	padding-bottom: 60px;
+	
+}
+
+#productwrap h1 {
+	color: {{ site.colors.primary }};
+	font-size: 70px;
+	line-height: 66px;
+	margin: 0;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#productwrap .btn-theme {
+	background-color: {{ site.colors.primary }};
+}
+
+#productwrap .btn-theme:hover {
+	background-color: {{ site.colors.teal }};
+	border: 2px solid {{ site.colors.primary }};
+}
+
+/* Products Points Wrap */
+
+#products-pointswrap {
+	background-color: white;
+	color: {{ site.colors.medium_brown }};
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#products-pointswrap h3 {
+	color: {{ site.colors.dark_brown }};
+}
+
+#products-pointswrap p {
+	color: {{ site.colors.medium_brown }};
+	padding-right: 25px;
+}
+
+#products-pointswrap .icon {
+	height: 50px;
+}
+
+#products-pointswrap .row {
+	padding: 15px;
+	margin-bottom: 40px;
+}
+
+
+
+/* Products Shot Wrap */
+
+#products-shotwrap {
+	background-color: {{ site.colors.red }};
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#products-shotwrap h2 {
+	font-weight: 600;
+	padding-left: 80px;
+	padding-right: 80px;
+	padding-top: 80px;
+}
+
+#products-shotwrap p {
+	padding-left: 80px;
+	padding-right: 80px;
+}	
 
 /* Services Wrap */
 #service {
@@ -405,6 +504,9 @@ a:focus {
 	font-size: 60px;
 	padding: 15px;
 }
+
+
+
 
 /* Good Company Wrap */
 #goodcompany {
@@ -452,7 +554,6 @@ a:focus {
 	margin: 0;
 	padding: 0;
 }
-
 
 
 /* Newsletter Wrap */

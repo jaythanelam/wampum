@@ -2,7 +2,7 @@
 
 # Site settings
 title: WAMPUM
-description: "Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description."
+description: "We beileve in eCommerce for all!  Wampum helps any legitimate business accept electronic payments (Cryptocurrency) with or without a Bank."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "/wampum" #important: start with /
 url: "https://jaythanelam.github.io"
@@ -43,22 +43,22 @@ collections:
 # Social networks usernames. Many more available: google-plus, flickr, linkedin, etc). Shown in footer.
 social:
   - title: facebook
-    url:
+    url: https://www.facebook.com/cryptowampum/
   - title: twitter
-    url:
+    url: https://twitter.com/CryptoWampum
   - title: bitcoin
-    url:
+    url: 
   - title: angellist
-    url:
+    url: https://angel.co/wampum-2
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
   - lines:
-    - Some Ave, 987,
-    - 23890, New York,
+    - 9200 E. Mineral Ave, Suite 100
+    - 80112, Centennial,
     - United States.
-email: hello@solidtheme.com
-tel: +34 8493-4893
+email: info@cryptowampum.com
+tel: (303) 997-2595
 
 
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###

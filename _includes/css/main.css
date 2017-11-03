@@ -361,20 +361,12 @@ a:focus {
 
 /* Pricing Wrap */
 
-#companywrap .product-card {
-	background-color: white;
-	border-radius: 4px;
-	text-align: center;
-}
 	
 #companywrap h4 {
 	color: {{ site.colors.dark_brown }};
 	font-weight: 600;
 }
 
-#companywrap .product-card .btn-theme {
-	margin: 0 auto;
-}
 	
 
 
@@ -516,23 +508,43 @@ a:focus {
 	background-color: #F6F4F2;
 	min-height: 0px;
 	padding-top: 140px;
-	padding-bottom: 60px;
+	padding-bottom: 200px;
+	text-align: center;
+}
+
+
+#pricingwrap h1 {
+	color: {{ site.colors.primary }};
+	font-family: "Montserrat Alternates";
+	font-size: 70px;
+	line-height: 66px;
+	margin: 0 auto;
+	padding-bottom: 20px;
+	padding-top: 20px;
+}
+
+#pricingwrap p {
+	color: #988976;
+	font-family: Montserrat;
+	font-size: 16px;
+	line-height: 1.5em;
+	letter-spacing: .5px;
+	margin: 0;
+	padding-bottom: 100px;
 }
 
 #pricingwrap .generic_content {
 	background-color: #fff;
+	border-radius: 4px;
 }
 
-#pricingwrap .generic_content .generic_head_price{
-	background-color: #f6f6f6;
-}
 
 #pricingwrap .generic_content .generic_head_price .generic_head_content .head_bg{
-	border-color: #e4e4e4 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #e4e4e4;
+	border-color: #EDEAE6 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #EDEAE6;
 }
 
 #pricingwrap .generic_content .generic_head_price .generic_head_content .head span{
-	color: #525252;
+    color: {{ site.colors.primary }};	
 }
 
 #pricingwrap .generic_content .generic_head_price .generic_price_tag .price .sign{
@@ -560,17 +572,17 @@ a:focus {
 }
 #pricingwrap .generic_content .generic_feature_list ul li:hover{
 	background-color: #E4E4E4;
-	border-left: 5px solid #2ECC71;
+	border-left: 5px solid #1EC5A2;
 }
 
 #pricingwrap .generic_content .generic_price_btn a{
-	border: 1px solid #2ECC71; 
-	color: #2ECC71;
+	border: 1px solid #1EC5A2; 
+	color: #1EC5A2;
 } 
 
 #pricingwrap .generic_content.active .generic_head_price .generic_head_content .head_bg,
 #pricingwrap .generic_content:hover .generic_head_price .generic_head_content .head_bg{
-	border-color: #2ECC71 rgba(0, 0, 0, 0) rgba(0, 0, 0, 0) #2ECC71;
+	border-color: #1EC5A2 rgba(89, 99, 77, 0) rgba(89, 99, 77, 0) #1EC5A2;
 	color: #fff;
 }
 
@@ -581,13 +593,10 @@ a:focus {
 
 #pricingwrap .generic_content:hover .generic_price_btn a,
 #pricingwrap .generic_content.active .generic_price_btn a{
-	background-color: #2ECC71;
+	background-color: #1EC5A2;
 	color: #fff;
 } 
-#pricingwrap{
-	margin: 50px 0 50px 0;
-	font-family: 'Raleway', sans-serif;
-}
+
 .row .table{
 	padding: 28px 0;
 }
@@ -600,34 +609,30 @@ a:focus {
 	text-align: center;
 }
 
-#pricingwrap .generic_content .generic_head_price {
-	margin: 0 0 20px 0;
-}
-
 #pricingwrap .generic_content .generic_head_price .generic_head_content{
 	margin: 0 0 50px 0;
 }
 
 #pricingwrap .generic_content .generic_head_price .generic_head_content .head_bg{
 	border-style: solid;
-	border-width: 90px 1411px 23px 399px;
+	border-width: 90px 1411px 1px 399px;
+	border-radius: 4px;
 	position: absolute;
 }
 
 #pricingwrap .generic_content .generic_head_price .generic_head_content .head{
-	padding-top: 40px;
+	padding-top: 28px;
 	position: relative;
 	z-index: 1;
 }
 
 #pricingwrap .generic_content .generic_head_price .generic_head_content .head span{
-	font-family: "Raleway",sans-serif;
+	font-family: "Montserrat Alternates", sans-serif;
 	font-size: 28px;
 	font-weight: 400;
 	letter-spacing: 2px;
 	margin: 0;
 	padding: 0;
-	text-transform: uppercase;
 }
 
 #pricingwrap .generic_content .generic_head_price .generic_price_tag{
@@ -640,14 +645,14 @@ a:focus {
 
 #pricingwrap .generic_content .generic_head_price .generic_price_tag .price .sign{
 	display: inline-block;
-	font-family: "Lato",sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 28px;
-	font-weight: 400;
+	font-weight: 300;
 	vertical-align: middle;
 }
 
 #pricingwrap .generic_content .generic_head_price .generic_price_tag .price .currency{
-	font-family: "Lato",sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 60px;
 	font-weight: 300;
 	letter-spacing: -2px;
@@ -658,16 +663,16 @@ a:focus {
 
 #pricingwrap .generic_content .generic_head_price .generic_price_tag .price .cent{
 	display: inline-block;
-	font-family: "Lato",sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 24px;
-	font-weight: 400;
+	font-weight: 300;
 	vertical-align: bottom;
 }
 
 #pricingwrap .generic_content .generic_head_price .generic_price_tag .month{
-	font-family: "Lato",sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 18px;
-	font-weight: 400;
+	font-weight: 300;
 	letter-spacing: 3px;
 	vertical-align: bottom;
 }
@@ -679,7 +684,7 @@ a:focus {
 }
 
 #pricingwrap .generic_content .generic_feature_list ul li{
-	font-family: "Lato",sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 18px;
 	padding: 15px 0;
 	transition: all 0.3s ease-in-out 0s;
@@ -706,7 +711,7 @@ a:focus {
 	-o-border-radius: 50px;
 	-webkit-border-radius: 50px;
 	display: inline-block;
-	font-family: "Lato",sans-serif;
+	font-family: "Montserrat", sans-serif;
 	font-size: 18px;
 	outline: medium none;
 	padding: 12px 30px;
@@ -756,168 +761,6 @@ a:focus {
 @media (min-width: 992px) and (max-width: 1199px) {
 }
 @media (min-width: 1200px) {
-}
-#pricingwrap_home{
-		font-family: 'Raleway', sans-serif;
-}
-
-.text-center h1,
-.text-center h1 a{
-	color: #7885CB;
-	font-size: 30px;
-	font-weight: 300;
-	text-decoration: none;
-}
-.demo-pic{
-	margin: 0 auto;
-}
-.demo-pic:hover{
-	opacity: 0.7;
-}
-
-#pricingwrap_home ul{
-	margin: 0 auto;
-	padding: 0;
-	list-style: none;
-	display: table;
-}
-#pricingwrap_home li{
-	float: left;
-}
-#pricingwrap_home li + li{
-	margin-left: 10px;
-	padding-bottom: 10px;
-}
-#pricingwrap_home li a{
-	display: block;
-	width: 50px;
-	height: 50px;
-	font-size: 0px;
-}
-#pricingwrap_home .blue{
-	background: #3498DB;
-	transition: all 0.3s ease-in-out 0s;
-}
-#pricingwrap_home .emerald{
-	background: #2ECC71;
-	transition: all 0.3s ease-in-out 0s;
-}
-#pricingwrap_home .grey{
-	background: #7F8C8D;
-	transition: all 0.3s ease-in-out 0s;
-}
-#pricingwrap_home .midnight{
-	background: #34495E;
-	transition: all 0.3s ease-in-out 0s;
-}
-#pricingwrap_home .orange{
-	background: #E67E22;
-	transition: all 0.3s ease-in-out 0s;
-}
-#pricingwrap_home .purple{
-	background: #9B59B6;
-	transition: all 0.3s ease-in-out 0s;
-}
-#pricingwrap_home .red{
-	background: #E74C3C;
-	transition:all 0.3s ease-in-out 0s;
-}
-#pricingwrap_home .turquoise{
-	background: #1ABC9C;
-	transition: all 0.3s ease-in-out 0s;
-}
-
-#pricingwrap_home .blue:hover,
-#pricingwrap_home .emerald:hover,
-#pricingwrap_home .grey:hover,
-#pricingwrap_home .midnight:hover,
-#pricingwrap_home .orange:hover,
-#pricingwrap_home .purple:hover,
-#pricingwrap_home .red:hover,
-#pricingwrap_home .turquoise:hover{
-	border-bottom-left-radius: 50px;
-	border-bottom-right-radius: 50px;
-	border-top-left-radius: 50px;
-	border-top-right-radius: 50px;
-	transition: all 0.3s ease-in-out 0s;
-}
-#pricingwrap_home .divider{
-	border-bottom: 1px solid #ddd;
-	margin-bottom: 20px;
-	padding: 20px;
-}
-#pricingwrap_home .divider span{
-	width: 100%;
-	display: table;
-	height: 2px;
-	background: #ddd;
-	margin: 50px auto;
-	line-height: 2px;
-}
-#pricingwrap_home .itemname{
-	text-align: center;
-	font-size: 50px ;
-	padding: 50px 0 20px ;
-	border-bottom: 1px solid #ddd;
-	margin-bottom: 40px;
-	text-decoration: none;
-	font-weight: 300;
-}
-#pricingwrap_home .itemnametext{
-	text-align: center;
-	font-size: 20px;
-	padding-top: 5px;
-	text-transform: uppercase;
-	display: inline-block;
-}
-#pricingwrap_home .footer{
-	padding:40px 0;
-}
-
-.price-heading{
-	text-align: center;
-}
-.price-heading h1{
-	color: #666;
-	margin: 0;
-	padding: 0 0 50px 0;
-}
-.demo-button {
-	background-color: #333333;
-	color: #ffffff;
-	display: table;
-	font-size: 20px;
-	margin-left: auto;
-	margin-right: auto;
-	margin-top: 20px;
-	margin-bottom: 50px;
-	outline-color: -moz-use-text-color;
-	outline-style: none;
-	outline-width: medium ;
-	padding: 10px;
-	text-align: center;
-	text-transform: uppercase;
-}
-.bottom_btn{
-	background-color: #333333;
-	color: #ffffff;
-	display: table;
-	font-size: 28px;
-	margin: 60px auto 20px;
-	padding: 10px 25px;
-	text-align: center;
-	text-transform: uppercase;
-}
-.demo-button:hover{
-	background-color: #666;
-	color: #FFF;
-	text-decoration:none;
-	
-}
-.bottom_btn:hover{
-	background-color: #666;
-	color: #FFF;
-	text-decoration:none;
 }
 
 

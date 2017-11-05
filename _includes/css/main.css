@@ -102,6 +102,10 @@ a:focus {
 	color: {{ site.colors.dark_brown }};
 }
 
+.italics {
+	font-style: italic;
+}
+
 /*	################################################################
 	BOOTSTRAP MODIFICATIONS & TWEAKS
 ################################################################# */
@@ -333,7 +337,6 @@ a:focus {
 }
 
 #companywrap svg {
-	padding-bottom: 40px;
 	margin: 0 auto;
 }
 
@@ -344,7 +347,7 @@ a:focus {
 	line-height: 66px;
 	margin: 0;
 	padding-bottom: 20px;
-	padding-top: 20px;
+	padding-top: 40px;
 }
 
 #companywrap p {
@@ -397,7 +400,7 @@ a:focus {
 	color: {{ site.colors.dark_brown }};
 	font-weight: 600;
 	padding-left: 80px;
-	padding-top: 80px;
+	padding-top: 60px;
 	padding-right: 80px;
 }
 

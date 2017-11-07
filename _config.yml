@@ -4,8 +4,8 @@
 title: WAMPUM
 description: "We beileve in eCommerce for all!  Wampum helps any legitimate business accept electronic payments (Cryptocurrency) with or without a Bank."
 analytics: #Google analytics code in the format XX-nnnnnnnn-n
-baseurl: "/wampum" #important: start with /
-url: "https://jaythanelam.github.io"
+baseurl: "" #important: start with /
+url: "http://cryptowampum.com"
 
 # Build settings
 markdown: kramdown

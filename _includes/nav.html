@@ -13,12 +13,12 @@
     <div class="navbar-collapse collapse navbar-right">
       <ul class="nav navbar-nav">
         <li {% if page.title == "Home" %}class="active"{% endif %}><a href="{{"/" | prepend: site.baseurl }}">Home</a></li>
-        <li {% if page.title == "Products" %}class="active"{% endif %}><a href="{{"/products/" | prepend: site.baseurl }}">Products</a></li>
-        <li {% if page.title == "Company" %}class="active"{% endif %}><a href="{{"/company/" | prepend: site.baseurl }}">Company</a></li>
+        <li {% if page.title == "Products" %}class="active"{% endif %}><a href="{{"/products/index.html" | prepend: site.baseurl }}">Products</a></li>
+        <li {% if page.title == "Company" %}class="active"{% endif %}><a href="{{"/company/index.html" | prepend: site.baseurl }}">Company</a></li>
         <!--
-        <li {% if page.title == "Pricing" %}class="active"{% endif %}><a href="{{"/pricing/" | prepend: site.baseurl }}">Pricing</a></li>
+        <li {% if page.title == "Pricing" %}class="active"{% endif %}><a href="{{"/pricing/index.html" | prepend: site.baseurl }}">Pricing</a></li>
         -->
-        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/" | prepend: site.baseurl }}">Contact</a></li>
+        <li {% if page.title == "Contact" %}class="active"{% endif %}><a href="{{"/contact/index.html" | prepend: site.baseurl }}">Contact</a></li>
       </ul>
     </div><!--/.nav-collapse -->
   </div>

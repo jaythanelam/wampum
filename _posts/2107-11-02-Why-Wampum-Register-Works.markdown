@@ -10,7 +10,7 @@ img: retail.jpg
 thumb: thumb03.jpg
 ---
 
-##Reasons for using Wampum Register©
+## Reasons for using Wampum Register©
 
 * It’s Transparent: Retailers can see all transactions, the flow of funds, transaction information, and total amounts.
 
@@ -36,4 +36,4 @@ thumb: thumb03.jpg
 
 
 
-[russell]: http://cryptowampum.com
+[russell]: https://github.com/jekyll/jekyll

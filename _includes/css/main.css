@@ -50,6 +50,10 @@ img {
 	max-width: 100%;
 }
 
+.img-responsive {
+	border-radius: 4px;
+}
+
 svg {
 	height: auto;
 	max-width: 100%;
@@ -285,6 +289,11 @@ a:focus {
 .mtb {
 	margin-top: 80px;
 	margin-bottom: 80px;
+	color: {{ site.colors.dark_brown }};		
+}
+
+.mtb p {
+	color: {{ site.colors.medium_brown }};	
 }
 
 .mb {
@@ -296,7 +305,7 @@ a:focus {
 }
 
 .hline {
-	border-bottom: 2px solid {{ site.colors.light_brown }};
+	border-bottom: 1px solid {{ site.colors.dark_brown }};
 }
 
 .hline-w {
@@ -444,7 +453,6 @@ a:focus {
 	font-weight: 600;
 	padding-left: 80px;
 	padding-right: 80px;
-	padding-top: 20px;
 }
 
 #founderswrap p {
@@ -1071,6 +1079,7 @@ a:focus {
 	text-align: right;
 	padding-top: 30px;
 	padding-bottom: 20px;
+	border-top: 1px solid {{ site.colors.light_brown }};	
 }
 
 #footerwrap svg {
@@ -1120,8 +1129,6 @@ a:focus {
 /* General Tweaks */
 
 #blue {
-	background: {{ site.colors.primary }};
-	margin-top: 60px;
 	margin-bottom: 60px;
 	padding-top: 25px;
 	padding-bottom: 25px;
@@ -1130,6 +1137,10 @@ a:focus {
 #blue h3 {
 	color: white;
 	margin-left: 15px;
+}
+
+#blue p {
+	color: {{ site.colors.medium_brown }};	
 }
 
 .carousel-inner > .item > img,
@@ -1158,6 +1169,7 @@ a:focus {
 	color: {{ site.colors.primary }};
 	font-weight: 600;
 	margin-bottom: 15px;
+	font-size: 32px;
 }
 
 csmall {

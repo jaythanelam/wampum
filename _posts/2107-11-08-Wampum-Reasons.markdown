@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Reasons to use Wampum"
-date: 2017-11-08 00:54:46
+date: 2017-11-08 12:54:46
 author: Russell
 categories:
 - blog

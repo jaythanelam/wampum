@@ -48,6 +48,8 @@ social:
     url: https://twitter.com/CryptoWampum
   - title: angellist
     url: https://angel.co/wampum-2
+  - title: linkedin
+    url: https://www.linkedin.com/company/18014266/
 
 # Postal address (add as many lines as necessary). Shown in footer and on Contact page.
 address:
@@ -62,7 +64,6 @@ tel: (303) 997-2595
 ### GENERAL DATA FOR VARIOUS LOCATIONS ###
 
 # Members information. Shown on About page.
-members:
 members:
   - name: Russell Castagnaro
     position: CEO and Cofounder

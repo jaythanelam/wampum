@@ -67,8 +67,7 @@ ol {
 }
 
 a { 
-    color:{{ site.colors.link }};
-    padding: 0;
+  padding: 0;
 	margin: 0;
 	text-decoration: none; 
 	-webkit-transition: background-color .4s linear, color .4s linear;
@@ -77,6 +76,7 @@ a {
 	-ms-transition: background-color .4s linear, color .4s linear;
 	transition: background-color .4s linear, color .4s linear;
 }
+
 a:hover,
 a:focus {
   text-decoration: none;
@@ -100,6 +100,7 @@ a:focus {
 
 .strong {
 	color: {{ site.colors.dark_brown }};
+	font-weight: bold;
 }
 
 .italics {
@@ -164,14 +165,17 @@ a:focus {
 .btn-theme {
 	height: 66px;
 	width: 230px;
-    color: #fff;
-    background-color: {{ site.colors.teal }};
-    border-color: 2px solid {{ site.colors.teal }};
-    border-radius: 100px;
+  color: #fff;
+  background-color: {{ site.colors.teal }};
+  border-color: 2px solid {{ site.colors.teal }};
+  border-radius: 100px;
 	padding: 24px 50px;
 	text-transform: uppercase;
 	letter-spacing: 1.3px;
 	text-align: center;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
 }
 
 .btn-theme:hover,
@@ -181,31 +185,63 @@ a:focus {
 .open .dropdown-toggle.btn-theme {
   color: #fff;
   background-color: {{ site.colors.primary }};
-  border-color: {{ site.colors.primary }};
+	border-color: {{ site.colors.primary }};
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
 }
 
 .btn-theme a {
 	color: #fff;
 }
 
-.btn-outline {
+.btn-outline-teal {
 	height: 66px;
 	width: 230px;
-    color: #fff;
-    background-color: none;
-    border: 2px solid #1EC5A2;
-    border-radius: 100px;
+  color: #fff;
+  background-color: none;
+  border: 2px solid #1EC5A2;
+  border-radius: 100px;
 	padding: 22px 50px;
 	text-transform: uppercase;
 	letter-spacing: 1.3px;
 	text-align: center;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
 }
-.btn-outline:hover,
-.btn-outline:focus,
-.btn-outline:active,
-.btn-outline.active,
-.open .dropdown-toggle.btn-outline {
+.btn-outline-teal:hover,
+.btn-outline-teal:focus,
+.btn-outline-teal:active,
+.btn-outline-teal.active,
+.open .dropdown-toggle.btn-outline-teal {
   color: #fff;
+  background-color: {{ site.colors.primary }};
+  border-color: {{ site.colors.primary }};
+}
+
+.btn-outline-blue {
+	height: 66px;
+	width: 230px;
+  color: {{ site.colors.primary }};
+  background-color: none;
+  border: 2px solid {{ site.colors.primary }};
+  border-radius: 100px;
+	padding: 22px 50px;
+	text-transform: uppercase;
+	letter-spacing: 1.3px;
+	text-align: center;
+	-webkit-transition: background-color 300ms ease-out;
+	-moz-transition: background-color 300ms ease-out;
+	transition: background-color 300ms ease-out;
+}
+
+.btn-outline-blue:hover,
+.btn-outline-blue:focus,
+.btn-outline-blue:active,
+.btn-outline-blue.active,
+.open .dropdown-toggle.btn-outline-blue {
+  color: {{ site.colors.teal }};
   background-color: {{ site.colors.primary }};
   border-color: {{ site.colors.primary }};
 }
@@ -400,7 +436,7 @@ a:focus {
 	color: {{ site.colors.dark_brown }};
 	font-weight: 600;
 	padding-left: 80px;
-	padding-top: 60px;
+	padding-top: 20px;
 	padding-right: 80px;
 }
 
@@ -431,8 +467,7 @@ a:focus {
 	background-color: {{ site.colors.teal }};
 	margin: 0;
 	padding-top: 140px;	
-	padding-bottom: 60px;
-	
+	padding-bottom: 60px;	
 }
 
 #productwrap h1 {
@@ -444,14 +479,14 @@ a:focus {
 	padding-top: 20px;
 }
 
-#productwrap .btn-theme {
-	background-color: {{ site.colors.primary }};
+#productwrap p {
+	color: {{ site.colors.primary }};
 }
 
-#productwrap .btn-theme:hover {
-	background-color: {{ site.colors.teal }};
-	border: 2px solid {{ site.colors.primary }};
+#productwrap .btn-outline-blue {
+	color: {{ site.colors.primary }};
 }
+
 
 /* Products Points Wrap */
 
@@ -865,7 +900,7 @@ a:focus {
 	letter-spacing: .5px;
 }
 
-#goodcompany .btn-outline {
+#goodcompany .btn-outline-teal {
 	margin: 0 auto;
 }
 
@@ -1058,7 +1093,7 @@ a:focus {
 	font-size: 24px;
 	color: {{ site.colors.medium_brown }};
 	text-align: right;
-	padding-top: 8px;
+	padding-top: 2px;
 }
 
 #footerwrap i:hover {
@@ -1267,7 +1302,7 @@ a.anchor{
 
 	#footerwrap .footer-nav {
 		text-align: right;
-		margin-top: 5px;
+		margin-top: 7px;
 		padding-left: 0;		
 	}
 	
@@ -1320,7 +1355,7 @@ a.anchor{
 	}
 	
 	#footerwrap svg {
-		margin-top: -8px;
+		margin-top: -4px;
 		padding: 0;
 	}
 	
@@ -1343,7 +1378,6 @@ a.anchor{
 		font-size: 24px;
 		color: {{ site.colors.medium_brown }};
 		text-align: right;
-		padding-top: 8px;
 	}
 	
 	#footerwrap i:hover {

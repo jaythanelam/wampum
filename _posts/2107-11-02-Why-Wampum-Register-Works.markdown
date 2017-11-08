@@ -7,7 +7,7 @@ categories:
 - blog
 - wampum
 img: retail.jpg
-thumb: thumb03.jpg
+thumb: favicon-32.png
 ---
 
 ## Reasons for using Wampum Register©

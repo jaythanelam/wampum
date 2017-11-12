@@ -41,7 +41,7 @@
     <div class="hline"></div>
     <p>
     {% for category in site.categories %}
-            <a class="btn btn-theme" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>
+            <a class="btn" href="{{ '/category/#'  | prepend: site.baseurl  }}{{ category | first }}" role="button">{{ category | first | capitalize }} ({{ category | last | size }})</a>
         {% endfor %}
     </p>
 </div>

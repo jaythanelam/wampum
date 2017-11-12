@@ -11,12 +11,13 @@ permalink: /blog/
         <div class="col-lg-8">
 
             {% for post in site.posts %}
-                <! -- Blog Post --> 
+                <! -- Blog Post -->
+                <a href="{{ post.url | prepend: site.baseurl }}.html"><h3 class="ctitle">{{ post.title }}</h3></a>
+                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
+
                 <a href="{{ post.url | prepend: site.baseurl }}.html">
                     <img class="img-responsive" src="{{ "/assets/img/blog/" | prepend: site.baseurl }}{{ post.img }}">
                 </a>
-                <a href="{{ post.url | prepend: site.baseurl }}.html"><h3 class="ctitle">{{ post.title }}</h3></a>
-                <p><csmall>{{ post.date | date: "%b %-d, %Y" }}. | By: {{ post.author }}</csmall></p>
                 {{ post.excerpt }}
                 <p><a href="{{ post.url | prepend: site.baseurl }}.html">[Read More]</a></p>
                 <div class="hline"></div>

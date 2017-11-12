@@ -10,8 +10,6 @@ img: WampumLogo.png
 thumb: favicon-32.png
 ---
 
-## Wampum Register© lets merchants accept Bitcoin with or without a bank.
-
 
 Lisbon, PT (November 8, 2017) - [Wampum, LLC](http://cryptowampum.com) announced the launch of its eCommerce disrupting software Wampum Register© which allows companies to accept Bitcoin payments directly.
 

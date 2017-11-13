@@ -127,7 +127,7 @@ a:focus {
 }
 
 .navbar-logo {
-	margin: 8px 20px;
+	margin-top: 7px;
 	padding: 0;
 }
 
@@ -376,7 +376,7 @@ a:focus {
 /* Company Wrap */
 
 #companywrap {
-	background-color: #F6F4F2;
+	background-color: {{ site.colors.red }};
 	min-height: 0px;
 	padding-top: 140px;
 	padding-bottom: 60px;
@@ -388,17 +388,17 @@ a:focus {
 }
 
 #companywrap h1 {
-	color: {{ site.colors.primary }};
+	color: white;
 	font-family: "Montserrat Alternates";
 	font-size: 70px;
 	line-height: 66px;
 	margin: 0;
 	padding-bottom: 20px;
-	padding-top: 40px;
+	padding-top: 80px;
 }
 
 #companywrap p {
-	color: #988976;
+	color: #932F25;
 	font-family: Montserrat;
 	font-size: 16px;
 	line-height: 1.5em;
@@ -424,6 +424,7 @@ a:focus {
 #statswrap {
 	text-align: center;
 	background-color: white;
+	padding-top: 60px;
 }
 
 #statswrap div {
@@ -444,7 +445,7 @@ a:focus {
 /* Founders Wrap & Founders Video Wrap */
 
 #founderswrap {
-	padding-top: 100px;
+	padding-top: 40px;
 	padding-bottom: 100px;
 }
 

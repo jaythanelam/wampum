@@ -8,6 +8,7 @@ categories:
 - wampum
 img: retail.jpg
 thumb: favicon-32.png
+canonical_url: 'http://cryptowampum.com/blog/wampum/Why-Wampum-Register-Works.html'
 ---
 
 ## Reasons for using Wampum Register©

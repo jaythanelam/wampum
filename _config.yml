@@ -1,11 +1,32 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: WAMPUM
+title: "Wampum eCommerce for all"
 description: "We beileve in eCommerce for all!  Wampum helps any legitimate business accept electronic payments (Cryptocurrency) with or without a Bank."
-analytics: #Google analytics code in the format XX-nnnnnnnn-n
+analytics: "UA-70441646-2"  #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://cryptowampum.com"
+cannonical_url: "http://cryptowampum.com"
+author: "Wampum"
+twitter:
+  username: "cryptowampum"
+
+facebook:
+ app_id: "251251262032068"
+ publisher: "251251262032068"
+ admins: "251251262032068"
+ 
+logo: "/assets/ico/favicon-32x32.png"
+
+social:
+  name: Wampum
+  links:
+    - https://twitter.com/CryptoWampum
+    - https://www.facebook.com/cryptowampum/
+    - https://angel.co/wampum-2
+    - https://www.linkedin.com/company/18014266/
+
+
 
 # Build settings
 markdown: kramdown
@@ -89,7 +110,7 @@ members:
     img: LexHeadshot.jpg
     social:
       - title: envelope #use for email address
-        url: mailto:name@domain.com
+        url: mailto:alexis@cryptowampum.com
       - title: twitter
         url: http://twitter.com/handle
   - name: Jaythan Elam
@@ -114,10 +135,14 @@ clients:
     img: client04.png
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
-about: "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s."
+about: "We believe that eCommerce (electronic payments) should be available to all. We help our customers accept crypto payments with or without the use of a bank."
 
 # Testimonial content. Shown on Home and About page.
 testimonial:
     message: "We believe that eCommerce technologies should be available to anyone doing legitimate business. We help our customers accept Bitcoin payments with or without the use of a local bank."
     author: Marcel Newman
     position: Founder - BLACKTIE.CO
+    
+plugins:
+ - jekyll-seo-tag
+

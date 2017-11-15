@@ -8,6 +8,7 @@ categories:
 - Wampum
 img: WampumLogo.png
 thumb: favicon-32.png
+canonical_url: 'http://cryptowampum.com/blog/our-new-logo-is-here.html'
 ---
 
 I realize that this probably isn't the most exciting thing you've ever heard, but we have a new logo.  When we started Wampum I hired three people on Fiverr and picked the best of the three of them. I only gave them two days.  

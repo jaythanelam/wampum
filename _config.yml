@@ -53,10 +53,10 @@ colors:  #in hex code if not noted else
 # Making projects separate from posts
 collections:
   projects:
-    output: true
+    output: false
     permalink: /projects/:title/
   questions:
-    output: true
+    output: false
     permalink: /questions/:title/
 
 ### CONTACT SETTINGS ###
@@ -123,25 +123,13 @@ members:
       - title: twitter
         url: http://twitter.com/jaythan
 
-# Clients information. Shown on Home and About pages.
-clients:
-  - name: dribbble
-    img: client01.png
-  - name: Code is Poetry
-    img: client02.png
-  - name: Vimeo
-    img: client03.png
-  - name: VimeoPro
-    img: client04.png
+
 
 # Short text about your company. Shown in footer on every page and also separately on Home and Contact page.
 about: "We believe that eCommerce (electronic payments) should be available to all. We help our customers accept crypto payments with or without the use of a bank."
 
 # Testimonial content. Shown on Home and About page.
-testimonial:
-    message: "We believe that eCommerce technologies should be available to anyone doing legitimate business. We help our customers accept Bitcoin payments with or without the use of a local bank."
-    author: Marcel Newman
-    position: Founder - BLACKTIE.CO
+
     
 plugins:
  - jekyll-seo-tag

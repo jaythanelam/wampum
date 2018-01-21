@@ -5,7 +5,7 @@ date: 2017-11-08 12:54:46
 author: Russell
 categories:
 - blog
-- wampum
+- Wampum
 img: WampumLogo.png
 thumb: favicon-32.png
 canonical_url: 'http://cryptowampum.com/blog/wampum/Wampum-Reasons.html'

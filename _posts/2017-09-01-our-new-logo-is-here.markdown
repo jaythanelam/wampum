@@ -6,7 +6,7 @@ author: Admin
 categories: 
 - blog
 - Wampum
-img: WampumLogo.png
+img: WampeiLogo.png
 thumb: favicon-32.png
 canonical_url: 'http://cryptowampum.com/blog/our-new-logo-is-here.html'
 ---

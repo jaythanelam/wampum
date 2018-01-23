@@ -29,7 +29,7 @@ The four finalists were:
 
  
 
-[![Wampum](/assets/img/blog/WampumLogoMed.png "Logo Wampum")](http://cryptowampum.com)   
+[![Wampum](/assets/img/blog/WampeiLogoMed.png "Logo Wampum")](http://cryptowampum.com)   
 
 [<img alt="Wander + Ivy" src="http://www.denversbdc.org/Trout%20Tank/Trout%20Tank%20Fall%202017/Wander%20Ivy%20Logo%202.PNG" width="50%" height="50%"/>](https://www.linkedin.com/wander+ivy)
 

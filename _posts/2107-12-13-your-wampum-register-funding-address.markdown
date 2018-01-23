@@ -8,7 +8,7 @@ categories:
 - funding
 - ecommerce
 - configuration
-img: WampumLogo.png
+img: WampeiLogo.png
 thumb: favicon-32.png
 canonical_url: 'http://cryptowampum.com/blog/wampei/your-wampeu-register-funding-address.html'
 ---

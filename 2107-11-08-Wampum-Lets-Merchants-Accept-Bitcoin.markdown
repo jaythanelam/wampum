@@ -6,7 +6,7 @@ author: Russell
 categories:
 - blog
 - wampum
-img: WampumLogo.png
+img: WampeiLogo.png
 thumb: favicon-32.png
 ---
 

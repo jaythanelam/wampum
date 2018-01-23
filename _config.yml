@@ -1,13 +1,13 @@
 ### GENERAL SETTINGS ###
 
 # Site settings
-title: "Wampum eCommerce for all"
-description: "We beileve in eCommerce for all!  Wampum helps any legitimate business accept electronic payments (Cryptocurrency) with or without a Bank."
+title: "Wampei eCommerce for all"
+description: "We beileve in eCommerce for all!  Wampei helps any legitimate business accept electronic payments (Cryptocurrency) with or without a Bank."
 analytics: "UA-70441646-2"  #Google analytics code in the format XX-nnnnnnnn-n
 baseurl: "" #important: start with /
 url: "http://cryptowampum.com"
 cannonical_url: "http://cryptowampum.com"
-author: "Wampum"
+author: "Wampei"
 twitter:
   username: "cryptowampum"
 
@@ -19,7 +19,7 @@ facebook:
 logo: "/assets/ico/favicon-32x32.png"
 
 social:
-  name: Wampum
+  name: Wampei
   links:
     - https://twitter.com/CryptoWampum
     - https://www.facebook.com/cryptowampum/
@@ -106,8 +106,8 @@ members:
         url: http://twitter.com/handle
   - name: Alexis Swann
     position: Director of Business Development
-    text: Responsible for identifying partners (eCommerce platforms and Point-of-Sale providers) who want to extend their reach in the eCommerce world.  Leverage technical knowledge, experience in Healthcare and intimate understanding of operations to position Wampum business partners to make the most of cryptocommerce and expand their customer base.
-    img: LexHeadshot.jpg
+    text: Responsible for identifying partners (eCommerce platforms and Point-of-Sale providers) who want to extend their reach in the eCommerce world.  Leverage technical knowledge, experience in Healthcare and intimate understanding of operations to position Wampei business partners to make the most of cryptocommerce and expand their customer base.
+    img: LexHeadShotSq.jpg
     social:
       - title: envelope #use for email address
         url: mailto:alexis@cryptowampum.com

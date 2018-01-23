@@ -7,7 +7,7 @@ categories:
 - blog
 - press release
 - cannabis
-img: WampumLogo.png
+img: WampeiLogo.png
 thumb: favicon-32.png
 canonical_url: 'http://cryptowampum.com/blog/wampum/Wampum-Lets-Merchants-Accept-Bitcoin.html'
 ---

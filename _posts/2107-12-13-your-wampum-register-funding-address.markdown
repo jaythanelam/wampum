@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Your Wampum Register Funding Address"
+title: "Your Wampei Register Funding Address"
 date: 2017-12-13 00:54:46
 author: Russell
 categories:
@@ -10,12 +10,12 @@ categories:
 - configuration
 img: WampumLogo.png
 thumb: favicon-32.png
-canonical_url: 'http://cryptowampum.com/blog/wampum/your-wampum-register-funding-address.html'
+canonical_url: 'http://cryptowampum.com/blog/wampei/your-wampeu-register-funding-address.html'
 ---
 
 # Your funding address #
 
-When you use Wampum Register© one of the things you have to determine is how and where you want to store your funds.  Should you hold the crypto and send to a hardware or paper wallet?  Perhaps you have business partners and want to send it to a Multi-sig wallet.  Maybe you just want to spend it using a debit card.  Most merchants choose to send funds to an exchange like Uphold.com or Coinbase.com where they can do whatever they want with the monies including convert it to their home currency and transferring it to a bank account.
+When you use Wampei Register© one of the things you have to determine is how and where you want to store your funds.  Should you hold the crypto and send to a hardware or paper wallet?  Perhaps you have business partners and want to send it to a Multi-sig wallet.  Maybe you just want to spend it using a debit card.  Most merchants choose to send funds to an exchange like Uphold.com or Coinbase.com where they can do whatever they want with the monies including convert it to their home currency and transferring it to a bank account.
 
 ## Working with Uphold ##
 ![Uphold](/assets/img/blog/uphold-logo-horizontal-small.png) 

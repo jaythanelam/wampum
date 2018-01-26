@@ -348,7 +348,7 @@ a:focus {
 	text-align: left;
 }
 
-#headerwrap svg {
+#headerwrap img {
 	padding-bottom: 40px;
 	margin: 0 auto;
 }
@@ -501,6 +501,11 @@ a:focus {
 
 #productwrap .btn-outline-blue {
 	color: {{ site.colors.primary }};
+}
+
+#productwrap img {
+	margin: 0;
+	padding-top: 20px;
 }
 
 
